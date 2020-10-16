@@ -1,0 +1,74 @@
+CRITICAL - 2020-06-15 01:20:08 --> Invalid file: {0}
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\User.php(17): view('welcome_message')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User->index()
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 01:51:48 --> syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/menu')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/menu')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 02:17:57 --> syntax error, unexpected end of file
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/insert', Array, true)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(41): view('kategori/insert')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->create()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-15 18:45:21 --> Undefined variable: jumlah
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\kategori\select.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 10, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(31): view('kategori/select', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->read()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 18:45:42 --> Undefined variable: jumlah
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\kategori\select.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 10, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(31): view('kategori/select', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->read()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 18:47:20 --> Undefined variable: page
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\kategori\select.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 40, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(31): view('kategori/select', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->read()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 18:48:07 --> Array to string conversion
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\kategori\select.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\KELAS 11\\php...', 44, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(31): view('kategori/select', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->read()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 18:49:11 --> Undefined variable: page
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\kategori\select.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 38, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Kategori.php(31): view('kategori/select', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->read()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

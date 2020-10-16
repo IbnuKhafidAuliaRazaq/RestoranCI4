@@ -1,0 +1,48 @@
+CRITICAL - 2020-08-26 21:36:05 --> {class}::{method} is not a valid method.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', 'option')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersA...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\select.php(29): view_cell('\\App\\Controller...')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/select', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(26): view('menu/select', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-26 21:39:19 --> {class}::{method} is not a valid method.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', 'option')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersA...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\select.php(29): view_cell('\\App\\Controller...')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/select', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(26): view('menu/select', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-26 21:40:19 --> {class}::{method} is not a valid method.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', 'option')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersA...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\select.php(29): view_cell('\\App\\Controller...')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/select', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(26): view('menu/select', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-26 21:40:39 --> {class}::{method} is not a valid method.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', 'option')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersA...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\select.php(29): view_cell('\\App\\Controller...')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/select', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(26): view('menu/select', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

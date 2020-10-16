@@ -1,0 +1,14 @@
+CRITICAL - 2020-09-09 03:55:11 --> syntax error, unexpected '}'
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/order')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/order')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 04:07:51 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, object given, called in D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php on line 14
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php(14): CodeIgniter\Database\BaseResult->getResult(Object(CodeIgniter\Database\MySQLi\Result))
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Order->index()
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,120 @@
+CRITICAL - 2020-09-05 03:42:25 --> Undefined index: kategori
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\update.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\KELAS 11\\php...', 21, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/update', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(118): view('menu/update', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->find('16')
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-05 03:42:36 --> Undefined index: kategori
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\update.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\KELAS 11\\php...', 21, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/update', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(118): view('menu/update', Array)
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->find('16')
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-05 03:43:09 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\cari.php(63): CodeIgniter\Pager\Pager->makeLinks(1, 4, 6, 'bootstrap')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/cari', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(59): view('menu/cari', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->read()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-05 03:43:15 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\cari.php(63): CodeIgniter\Pager\Pager->makeLinks(1, 4, 0, 'bootstrap')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/cari', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(59): view('menu/cari', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->read()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-05 03:43:49 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\cari.php(63): CodeIgniter\Pager\Pager->makeLinks(1, 4, 6, 'bootstrap')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/cari', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(59): view('menu/cari', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->read()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-05 03:43:57 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\cari.php(63): CodeIgniter\Pager\Pager->makeLinks(1, 4, 0, 'bootstrap')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/cari', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(59): view('menu/cari', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->read()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-05 03:44:25 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\menu\cari.php(63): CodeIgniter\Pager\Pager->makeLinks(1, 4, 0, 'bootstrap')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/cari', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(59): view('menu/cari', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->read()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-05 04:03:04 --> The original file is not a valid file.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(85): CodeIgniter\HTTP\Files\UploadedFile->move('./uploud')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-05 04:05:15 --> The original file is not a valid file.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(85): CodeIgniter\HTTP\Files\UploadedFile->move('./uploud')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-05 04:07:23 --> The original file is not a valid file.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(85): CodeIgniter\HTTP\Files\UploadedFile->move('./uploud')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-05 04:12:13 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('menu/update', Array, true)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(146): view('menu/update', Array)
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->find('16')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-05 04:12:54 --> The original file is not a valid file.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Menu.php(85): CodeIgniter\HTTP\Files\UploadedFile->move('./uploud')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

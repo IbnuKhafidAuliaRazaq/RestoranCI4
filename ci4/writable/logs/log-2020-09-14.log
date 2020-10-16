@@ -1,0 +1,40 @@
+CRITICAL - 2020-09-14 01:09:15 --> Undefined variable: order
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\order\select.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 29, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('order/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php(20): view('order/select')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Order->index()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 01:09:52 --> Undefined variable: order
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\order\select.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\KELAS 11\\php...', 29, Array)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('order/select', Array, true)
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php(20): view('order/select')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Order->index()
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 01:45:15 --> {0} is not a valid Pager template.
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('template_name')
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Pager\Pager.php(162): CodeIgniter\Pager\Pager->displayLinks('default', 'template_name')
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Views\order\select.php(60): CodeIgniter\Pager\Pager->makeLinks(1, 3, 9, 'template_name')
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\View\View.php(246): include('D:\\KELAS 11\\php...')
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('order/select', Array, true)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php(31): view('order/select', Array)
+#6 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Order->index()
+#7 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+#8 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-14 23:35:19 --> syntax error, unexpected '"'>BAYAR</a>"' (T_CONSTANT_ENCAPSED_STRING)
+#0 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\Common.php(1087): CodeIgniter\View\View->render('order/select', Array, true)
+#1 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\app\Controllers\Admin\Order.php(39): view('order/select', Array)
+#2 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Order->index()
+#3 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+#4 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\KELAS 11\php XAMMP 7.3\htdocs\restoran-ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
